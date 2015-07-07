@@ -173,15 +173,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "321032",
-              "packets": "3020",
+              "bytes": "382857",
+              "packets": "3594",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "321032",
-              "packets": "3020",
+              "bytes": "382857",
+              "packets": "3594",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -209,16 +209,16 @@
           "wlan0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "5715200",
-              "packets": "47580",
+              "bytes": "7533624",
+              "packets": "62312",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "211276643",
-              "packets": "152418",
+              "bytes": "287792852",
+              "packets": "206489",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -227,8 +227,8 @@
           "vboxnet0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "11180",
-              "packets": "85",
+              "bytes": "11374",
+              "packets": "87",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -732,7 +732,7 @@
         "model": "60",
         "model_name": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
         "stepping": "3",
-        "mhz": "3307.781",
+        "mhz": "3355.781",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "0",
@@ -835,7 +835,7 @@
         "model": "60",
         "model_name": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
         "stepping": "3",
-        "mhz": "2900.156",
+        "mhz": "3198.000",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "1",
@@ -938,7 +938,7 @@
         "model": "60",
         "model_name": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
         "stepping": "3",
-        "mhz": "3328.031",
+        "mhz": "3327.937",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "2",
@@ -1041,7 +1041,7 @@
         "model": "60",
         "model_name": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
         "stepping": "3",
-        "mhz": "3219.281",
+        "mhz": "3112.687",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "3",
@@ -1144,7 +1144,7 @@
         "model": "60",
         "model_name": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
         "stepping": "3",
-        "mhz": "3262.968",
+        "mhz": "3381.187",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "0",
@@ -1247,7 +1247,7 @@
         "model": "60",
         "model_name": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
         "stepping": "3",
-        "mhz": "3006.656",
+        "mhz": "3328.593",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "1",
@@ -1350,7 +1350,7 @@
         "model": "60",
         "model_name": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
         "stepping": "3",
-        "mhz": "2991.937",
+        "mhz": "3311.250",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "2",
@@ -1453,7 +1453,7 @@
         "model": "60",
         "model_name": "Intel(R) Core(TM) i7-4700MQ CPU @ 2.40GHz",
         "stepping": "3",
-        "mhz": "3121.500",
+        "mhz": "3252.562",
         "cache_size": "6144 KB",
         "physical_id": "0",
         "core_id": "3",
@@ -1560,23 +1560,23 @@
         "free": "16677884kB"
       },
       "total": "16336876kB",
-      "free": "11237704kB",
-      "buffers": "194756kB",
-      "cached": "2450488kB",
-      "active": "2636544kB",
-      "inactive": "1671196kB",
-      "dirty": "136kB",
+      "free": "11175128kB",
+      "buffers": "197940kB",
+      "cached": "2510024kB",
+      "active": "2653036kB",
+      "inactive": "1710580kB",
+      "dirty": "120kB",
       "writeback": "0kB",
-      "anon_pages": "1663092kB",
-      "mapped": "630176kB",
-      "slab": "184676kB",
-      "slab_reclaimable": "141068kB",
-      "slab_unreclaim": "43608kB",
-      "page_tables": "37464kB",
+      "anon_pages": "1655608kB",
+      "mapped": "640476kB",
+      "slab": "190348kB",
+      "slab_reclaimable": "146380kB",
+      "slab_unreclaim": "43968kB",
+      "page_tables": "37664kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "24846320kB",
-      "committed_as": "6796172kB",
+      "committed_as": "6873408kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "394600kB",
       "vmalloc_chunk": "34359265008kB"
@@ -1602,13 +1602,13 @@
     "filesystem": {
       "/dev/sda6": {
         "kb_size": "202081208",
-        "kb_used": "17711332",
-        "kb_available": "174081648",
+        "kb_used": "17707884",
+        "kb_available": "174085096",
         "percent_used": "10%",
         "mount": "/",
         "total_inodes": "12845056",
-        "inodes_used": "288193",
-        "inodes_available": "12556863",
+        "inodes_used": "284421",
+        "inodes_available": "12560635",
         "inodes_percent_used": "3%",
         "fs_type": "ext4",
         "mount_options": [
@@ -1650,13 +1650,13 @@
       },
       "tmpfs": {
         "kb_size": "1633688",
-        "kb_used": "1580",
-        "kb_available": "1632108",
+        "kb_used": "1584",
+        "kb_available": "1632104",
         "percent_used": "1%",
         "mount": "/run",
         "total_inodes": "2042109",
-        "inodes_used": "675",
-        "inodes_available": "2041434",
+        "inodes_used": "676",
+        "inodes_available": "2041433",
         "inodes_percent_used": "1%",
         "fs_type": "tmpfs",
         "mount_options": [
@@ -2019,7 +2019,7 @@
     },
     "root_group": "root",
     "init_package": "init",
-    "ohai_time": 1436242811.6917138,
+    "ohai_time": 1436245851.1074338,
     "command": {
       "ps": "ps -ef"
     },
@@ -2412,6 +2412,13 @@
           "uid": 116,
           "shell": "/bin/false",
           "gecos": "MySQL Server,,,"
+        },
+        "ntp": {
+          "dir": "/home/ntp",
+          "gid": 127,
+          "uid": 117,
+          "shell": "/bin/false",
+          "gecos": ""
         }
       },
       "group": {
@@ -2811,6 +2818,12 @@
           "members": [
 
           ]
+        },
+        "ntp": {
+          "gid": 127,
+          "members": [
+
+          ]
         }
       }
     },
@@ -2825,19 +2838,18 @@
         "ohai_root": "/opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/ohai-8.4.0/lib/ohai"
       }
     },
-    "uptime_seconds": 14691,
-    "uptime": "4 hours 04 minutes 51 seconds",
-    "idletime_seconds": 112287,
-    "idletime": "1 day 07 hours 11 minutes 27 seconds",
+    "uptime_seconds": 17731,
+    "uptime": "4 hours 55 minutes 31 seconds",
+    "idletime_seconds": 135780,
+    "idletime": "1 day 13 hours 43 minutes 00 seconds",
     "recipes": [
-      "motd",
-      "motd::default"
+      "ntp::default"
     ],
     "roles": [
 
     ]
   },
   "run_list": [
-    "recipe[motd]"
+    "recipe[ntp::default]"
   ]
 }
